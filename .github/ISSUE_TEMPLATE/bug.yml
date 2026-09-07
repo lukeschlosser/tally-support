@@ -31,9 +31,10 @@ body:
     attributes:
       label: Diagnostics
       description: >
-        Settings inside Tally has a Copy diagnostics button. It puts the version, browser and the
-        settings that change behaviour on your clipboard. It never copies your Jira address, an
-        issue key, a summary or a name, and you can read every line before pasting it here.
+        Newer versions of Tally have a Copy diagnostics button in Settings, under About Tally. It
+        puts the version, browser and the settings that change behaviour on your clipboard. It never
+        copies your Jira address, an issue key, a summary or a name, and you can read every line
+        before pasting it here. If your Tally does not have the button yet, the version is there too.
       render: text
     validations:
       required: false
@@ -41,7 +42,7 @@ body:
     id: version
     attributes:
       label: Tally version
-      description: If you did not use Copy diagnostics. It is at the bottom of Settings.
+      description: If you did not use Copy diagnostics. It is in Settings, under About Tally.
       placeholder: "1.0.1"
     validations:
       required: false

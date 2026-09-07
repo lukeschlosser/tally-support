@@ -27,9 +27,10 @@ limit rather than a missing feature.
 under issue-level security, and a restricted worklog are all correctly absent. If a view looks
 emptier than you expect, that is the first thing to check.
 
-**Diagnostics beat description.** Settings has a **Copy diagnostics** button: version, browser, and
-the settings that change how Tally behaves. It never copies your Jira address, an issue key, a
-summary or a name, and you can read every line before pasting it.
+**Diagnostics beat description.** Newer versions have a **Copy diagnostics** button in Settings,
+under About Tally: version, browser, and the settings that change how Tally behaves. It never copies
+your Jira address, an issue key, a summary or a name, and you can read every line before pasting it.
+If yours does not have it yet, the version is in the same place.
 
 ## What to expect
 
