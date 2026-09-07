@@ -1,0 +1,57 @@
+name: Bug report
+description: Something in Tally does not work, or shows the wrong thing.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time. Please do not paste anything containing a customer name or a
+        real issue summary — a redacted screenshot is fine, and the details below matter more.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you expect, and what did Tally do instead?
+      placeholder: The week total said 32h, but the rows underneath add up to 36h.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again
+      description: Every time, or just once? If you know the steps, list them.
+      placeholder: |
+        1. Open the Week view
+        2. Log an entry from the Log
+        3. The total above the chart does not change until I press Refresh
+    validations:
+      required: false
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: >
+        Settings inside Tally has a Copy diagnostics button. It puts the version, browser and the
+        settings that change behaviour on your clipboard. It never copies your Jira address, an
+        issue key, a summary or a name, and you can read every line before pasting it here.
+      render: text
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Tally version
+      description: If you did not use Copy diagnostics. It is at the bottom of Settings.
+      placeholder: "1.0.1"
+    validations:
+      required: false
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Edge
+        - Other Chromium browser
+    validations:
+      required: false

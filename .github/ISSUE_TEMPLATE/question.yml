@@ -1,0 +1,15 @@
+name: Question
+description: Something is not clear, or you are not sure whether it is a bug.
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The FAQ inside Tally covers the common ones — missing time, restricted worklogs, and why a
+        project you can see in Jira might not appear. If it is not there, ask here.
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like to know?
+    validations:
+      required: true

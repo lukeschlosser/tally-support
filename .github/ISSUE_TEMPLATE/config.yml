@@ -1,0 +1,10 @@
+# Blank issues off: every report should come through a form, because the forms ask for the two or
+# three things that decide whether a bug can be reproduced at all.
+blank_issues_enabled: false
+contact_links:
+  - name: Email instead
+    url: https://tally-site-73y.pages.dev/support/
+    about: Prefer not to use GitHub? The support page has an address.
+  - name: Privacy policy
+    url: https://tally-site-73y.pages.dev/privacy/
+    about: Every endpoint Tally calls, every key it stores, and why.

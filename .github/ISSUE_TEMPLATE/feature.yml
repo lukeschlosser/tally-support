@@ -1,0 +1,26 @@
+name: Feature request
+description: Something Tally does not do that you wish it did.
+labels: [feature]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Worth reading first: Tally deliberately does not rank people, score anyone against a target,
+        send anything anywhere, or support Jira Server. Requests in those directions get a polite no
+        and an explanation rather than silence.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: >
+        The situation, not the solution. "I need to see which of my team have not filled in their
+        timesheet by Friday" tells me more than "add a column for X", and often has a better answer.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you handle it today?
+      description: Another tool, a spreadsheet, or just putting up with it.
+    validations:
+      required: false
